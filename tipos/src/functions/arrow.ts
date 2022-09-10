@@ -2,7 +2,7 @@
 //     return url;
 // }
 
-const retornoAPI = (url: string): void =>{ // ()=>) indica a função anonima 
+const retornoAPI = (url: string): void =>{ // const sla = ()=>{} indica a função anonima 
     console.log('Url da API: ', url);
 }
 
