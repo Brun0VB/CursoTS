@@ -13,14 +13,19 @@
 interface testeProps{
     id:string;
     nome:string;
-    descr?: string; //prop array de string
+    descr?: string;
 }
 
 interface NomeProps{
-    tecs: testeProps[]
+    tecs: testeProps[]; // criando um array de objetos que possuem id, nome e decr
 }
 
 let front:NomeProps={
-    testeProps:
+    tecs:[
+        {id: "12", nome:"ReactJS", descr:"Ensinado React"},
+        {id: "13", nome:"NodeJS",}
+    ]
+    
 }
 
+console.log(front.tecs);
